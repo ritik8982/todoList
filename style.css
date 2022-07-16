@@ -1,0 +1,29 @@
+body{
+	background: linear-gradient(#95025e,#f9c929);
+	 background-repeat: no-repeat;
+    background-attachment: fixed;
+	
+}
+.container{
+	max-width:  400px;
+}
+
+input[type="text"],
+input[type="text"]:focus{
+	color: #fff;
+	border: none;
+	background: rgba(0, 0, 0, 0.2);
+	max-width: 400px;
+}
+
+.todos li{
+	background: #011a27;
+	font-size: 1.2rem;
+}
+
+.delete{
+	cursor: pointer;
+}
+.filtered{
+	display: none !important;		// bootstrap me display ko !important diya gaya hai mtlb ki isko override karna nhi hai to agar !important nhi lagaoge to ye rule apply nhi hoga 
+}
